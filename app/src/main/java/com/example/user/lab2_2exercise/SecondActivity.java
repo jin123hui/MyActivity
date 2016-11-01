@@ -16,6 +16,7 @@ public class SecondActivity extends AppCompatActivity {
         setContentView(R.layout.activity_second);
         editName = (EditText) findViewById(R.id.editName);
         editNumber = (EditText) findViewById(R.id.editNumber);
+
     }
 
     public void confirmMessage(View v) {
